@@ -5,6 +5,7 @@ import java.util.List;
 import com.grocery.demo.dao.ItemDao;
 import com.grocery.demo.entity.Item;
 import com.grocery.demo.utils.PageModel;
+import com.grocery.demo.utils.XmlDataSource;
 
 public class ItemService {
 	private ItemDao itemDao=new ItemDao();
@@ -30,6 +31,10 @@ public class ItemService {
 	}
 	
 	public void add(Item items) {
+		itemDao.add(items);
+	}
+	
+	public void update(Item items) {
 		itemDao.add(items);
 	}
 	

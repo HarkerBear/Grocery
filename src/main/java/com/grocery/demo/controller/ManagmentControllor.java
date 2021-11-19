@@ -92,7 +92,7 @@ public class ManagmentControllor extends HttpServlet {
 						item.setCategory(Integer.parseInt(fi.getString("UTF-8")));
 						break;
 					case "price":
-						item.setPrice(Integer.parseInt(fi.getString("UTF-8")));
+						item.setPrice(Double.parseDouble(fi.getString("UTF-8")));
 						break;
 					case "description":
 						item.setDescription(fi.getString("UTF-8"));

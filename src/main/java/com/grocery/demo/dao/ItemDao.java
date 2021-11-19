@@ -35,6 +35,10 @@ public class ItemDao {
 		XmlDataSource.append(item);
 	}
 	
+	public void update(Item item) {
+		XmlDataSource.append(item);
+	}
+	
 	public static Item findById(String id) {
 		List<Item> data=XmlDataSource.getRawData();
 		Item item=null;

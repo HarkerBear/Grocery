@@ -1,11 +1,11 @@
 function switchValid(onOff,input,errSelector,message){
 	if(onOff==false){
 		$(errSelector).text(message);
-		$(input).addClass("error_input");
+		//$(input).addClass("error_input");
 		$(errSelector).addClass("error_message");
 	}else{
 		$(errSelector).text("");
-		$(input).removeClass("error_input");
+		//$(input).removeClass("error_input");
 		$(errSelector).removeClass("error_message");
 	}
 }
