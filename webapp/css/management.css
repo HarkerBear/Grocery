@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.header{
+	width:1300px;
+	overflow:auto;
+}
+
+.header .logo{
+	width:700px;
+	overflow:auto;
+	float:left;
+	border-bottom: 1px solid;
+	
+}
+
+.header .logo img{
+	width:500px;
+	height:100px;
+}
+
+.header .admin{
+	width:100px;
+	height:100px;
+	margin-right:70px;
+	float:right;
+}
+
+.header .admin img{
+	width:100px;
+	height:100px;
+}
+
+.header .admin .info{
+	height:50px;
+	width:70px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.menu{
+	width:100px;
+	float:left;
+	border-right: 1px solid;
+	height: 500px;
+}
+
+.menu .menu_item{
+	text-align:center;
+}
+
+.menu .list_add{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: black;
+}
+
+.list{
+	margin-left: 150px;
+	margin-top: 20px;
+	height: 500px;
+	width: 800px;
+}
+
+iframe{
+	width: 1100px;
+    height: 560px;
+}

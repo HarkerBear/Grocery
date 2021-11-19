@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.container{
+	position:absolute;
+	left: 30%;
+}
+
+fieldset{
+	width: 350px;
+}
+
+
+ul{
+	list-style: none;
+}
+
+ul li span{
+    text-align: left;
+    vertical-align: bottom;
+}
+
+ul li input{
+	width: 270px;
+}
+
+ul li select{
+	width: 280px;
+}
+
+ul li textarea{
+	width: 270px;
+}
+
+.error_input{
+	color:red;
+	font-style:italic;
+	border:1px solid red;
+}
+
+.error_message{
+	color:red;
+	margin-left:30px;
+	font-size: 10px;
+}
