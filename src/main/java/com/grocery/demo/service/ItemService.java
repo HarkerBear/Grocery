@@ -35,7 +35,7 @@ public class ItemService {
 	}
 	
 	public void update(Item items) {
-		itemDao.add(items);
+		itemDao.update(items);
 	}
 	
 	public static Item findById(String id) {

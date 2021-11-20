@@ -49,6 +49,8 @@ public class ManagmentControllor extends HttpServlet {
 			this.add(request,response);
 		}else if(method.equals("4")) {
 			this.showUpdate(request,response);
+		}else if(method.equals("5")) {
+			this.update(request,response);
 		}
 	}
 
@@ -120,6 +122,10 @@ public class ManagmentControllor extends HttpServlet {
 		Item item=ItemService.findById(id);
 		request.setAttribute("item", item);
 		request.getRequestDispatcher("/WEB-INF/jsp/update.jsp").forward(request, response);
+	}
+	
+	private void update(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+		
 	}
 
 }

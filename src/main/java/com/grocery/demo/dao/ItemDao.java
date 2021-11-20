@@ -36,7 +36,7 @@ public class ItemDao {
 	}
 	
 	public void update(Item item) {
-		XmlDataSource.append(item);
+		XmlDataSource.update(item);
 	}
 	
 	public static Item findById(String id) {
