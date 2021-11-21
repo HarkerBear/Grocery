@@ -3,9 +3,9 @@ I built this project in 2017. That time I had learnt programming for one year.
 I took this project to an creativity competition in my University and it won the first prize!
 
 # Technology:
- Front End: Html, CSS, JavaScript, JQuery
+ Front-End: Html, CSS, JavaScript, JQuery
  
- Back End: Java, MVC
+ Back-End: Java, MVC
 
 # Wanna check it out!
 Here are a few several steps:
@@ -18,8 +18,6 @@ Here are a few several steps:
 
 # Wanna contact the author!
 My emial address is yiyu_tian@berkeley.edu, please begin with [calculator demo] for the title.
-I also put my LinkdIn page in this demo. On the top of the calculator, you can see a block, named 'by Yiyu'.
-Click it and you will know me more!
 I am open to any advice and disscussions. Please feel free to cantact me!
 
 # To you
