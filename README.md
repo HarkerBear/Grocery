@@ -17,7 +17,7 @@ Here are a few several steps:
 6. The data is stored in your local .XML. Feel free to play with it!
 
 # Wanna contact the author!
-My emial address is yiyu_tian@berkeley.edu, please begin with [Grocery Demo] for the title.
+My emial address is timyiyu.berkeley@gmail.com, please begin with [Grocery Demo] for the title.
 I am open to any advice and disscussions. Please feel free to cantact me!
 
 # To you
